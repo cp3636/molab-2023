@@ -1,12 +1,14 @@
 import UIKit
 
 var greeting = "Hello, playground"
+//Create new variable, assign it to something and initial greeting
 
-var myVariable = 42
-myVariable = 50
 
-50
+name = "Rose"
+name = "Gen"
+//changing the variable
 
-let myConstant = 42
-
-42
+let character = "Bob"
+//variable won't change
+character = "Tina"
+//error will appear
