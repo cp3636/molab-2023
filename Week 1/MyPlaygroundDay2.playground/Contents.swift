@@ -60,3 +60,20 @@ let missionMessage2 = "Apollo \(number2) landed on the moon."
 
 //calculations inside string interpolation
 print("5 x 5 is \(5 * 5)")
+
+//Recap
+
+//constants using let and variavles using var
+//use let to NOT change value
+//use three double quotes if string goes over several lines
+//decimal numbers are called Double
+// true or false state using a Boolean, which can be flipped using the ! operator or by calling toggle()
+
+//Checkpoint
+let celcius = 25.0
+let currentTempurature = 10.0
+let newTemp = celcius+currentTempurature
+print(newTemp)
+let word = "Hot"
+let tomorrowTemp = "It will be \(newTemp)°C tomorrow, so it will be very \(word)."
+print(tomorrowTemp)
