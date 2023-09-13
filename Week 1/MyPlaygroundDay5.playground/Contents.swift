@@ -166,3 +166,70 @@ else {
     print("That's a prickly pet")
 }
 //How to use switch statements to check multiple conditions
+enum Weather {
+    case sun, rain, wind, snow, unknown
+}
+
+let forecast = Weather.sun
+
+if forecast == .sun {
+    print("It should be a nice day.")
+} else if forecast == .rain {
+    print("Pack an umbrella.")
+} else if forecast == .wind {
+    print("Wear something warm")
+} else if forecast == .rain {
+    print("School is cancelled.")
+} else {
+    print("Our forecast generator is broken!")
+}
+//replace all if and else if with .case and add switch, let's us check individual cases one by one
+
+switch forecast {
+case .sun:
+    print("It's sunny out")
+case .rain:
+    print("We need an umbrella")
+case .wind:
+    print("I wish I had a windbreaker")
+case .snow:
+    print("Let's go sledding")
+case .unknown:
+    print("Check the weather app")
+}
+
+// if all caes fail to match
+//default
+let place = "Metropolis"
+
+switch place {
+case "Asgard":
+    print("Thor!")
+case "New York City":
+    print("Hey Spiderman!")
+case "Wakanda":
+    print("Black Panther!")
+default:
+    print("Who are you?")
+}
+//Use ternary conditional operator for quick tests
+
+let age2 = 18
+let canVote = age2 >= 18 ? "Yes" : "No"
+
+let hour = 23
+print(hour < 12 ? "It's befor noon" : "It's after noon")
+//no assigned result, just true or false
+
+//reads count and sends back one of two strings
+let names = ["Emma", "Clarissa", "Cayley"]
+let crewCount = names.isEmpty ? "No one" : "\(names.count) people"
+print(crewCount)
+//counts how many people there are if not empty
+
+//same as line 221 but using if else
+if hour < 12 {
+    print("It's before noon")
+} else {
+    print("It's after noon")
+}
