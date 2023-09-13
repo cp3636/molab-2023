@@ -106,3 +106,27 @@ for i in 1...100_000 {
 }
 }
 print(multiples)
+
+//Checkpoint 3
+//The problem is called fizz buzz, and has been used in job interviews, university entrance tests, and more for as long as I can remember. Your goal is to loop from 1 through 100, and for each number:
+
+//If it’s a multiple of 3, print “Fizz”
+//If it’s a multiple of 5, print “Buzz”
+//If it’s a multiple of 3 and 5, print “FizzBuzz”
+//Otherwise, just print the number.
+
+
+let numberFizz = 3
+let numberBuzz = 5
+
+for i in 1...100 {
+    if i.isMultiple(of: numberFizz) && i.isMultiple(of: numberBuzz) {
+        print("FizzBuzz")
+    } else if i.isMultiple(of: numberFizz) {
+        print("Fizz")
+    } else if i.isMultiple(of: numberBuzz) {
+        print("Buzz")
+    } else {
+        print(i)
+    }
+}
