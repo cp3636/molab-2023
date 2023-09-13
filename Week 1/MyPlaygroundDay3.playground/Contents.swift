@@ -83,5 +83,48 @@ let hasGraduated = [
 
 
 var archEnemies = [String: String]()
-archEnemies ["Batman"] = "The "
+archEnemies ["Batman"] = "The Joker"
+archEnemies ["Superman"] = "Lex Luthor"
 
+//fast data lookup
+
+let people = Set (["Selena Gomez", "Gabriel Macht", "Taylor Swift", "Sam Claflin"])
+
+print(people)
+
+var people2 = Set <String>()
+people2.insert("Selena Gomez")
+people2.insert("Gabriel Macht")
+people2.insert("Taylor Swift")
+people2.insert("Sam Claflin")
+//sttored in order, cannot have duplicates
+
+//Create and use enums
+//set of named values we create
+
+var selected = "Monday"
+selected = "Tuesday"
+selected = "January"
+//doesn't notice it's a month, not a day of the week
+
+//rewrite weekdays
+
+enum Weekday {
+    case monday
+    case tuesday
+    case wednesday
+    case thursday
+    case friday
+}
+var day = Weekday.monday
+day = Weekday.tuesday
+day = Weekday.friday
+//have to choose one of the possible days listed in enum
+
+//way to rewrite enums
+enum Weekday2 {
+    case monday, tuesday, wednesday, thursday, friday
+}
+var day2 = Weekday.monday
+day2 = .tuesday
+day2 = .friday
