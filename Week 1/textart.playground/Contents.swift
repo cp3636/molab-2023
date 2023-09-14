@@ -23,7 +23,7 @@ func Body() -> String {
     return body
 }
 
-for _ in 1...3 {
+for _ in 1...2 {
     print(top() + trail() + top() + trail() + top())
     print(Body() + room() + Body() + room() + Body())
 }
