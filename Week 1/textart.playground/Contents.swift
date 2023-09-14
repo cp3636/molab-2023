@@ -6,6 +6,7 @@ var beak = ">"
 var head = "(.)"
 var back = "__"
 var body = "(___/"
+var feet = "'''"
 
 func trail() -> String {
     return "    "
@@ -23,7 +24,12 @@ func Body() -> String {
     return body
 }
 
+func Feet() -> String{
+    return feet
+}
 for _ in 1...2 {
     print(top() + trail() + top() + trail() + top())
-    print(Body() + room() + Body() + room() + Body())
+    print(Body() + room()  + Body() + room() + Body())
+    print (Feet() + room() + Feet() + room() + Feet())
+    
 }
