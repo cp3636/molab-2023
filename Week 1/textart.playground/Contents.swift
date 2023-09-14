@@ -2,22 +2,28 @@ import UIKit
 
 var greeting = "Hello, playground"
 
+var beak = ">"
+var head = "(.)"
+var back = "__"
+var body = "(___/"
 
+func trail() -> String {
+    return "    "
+}
 
-let stem = "-"
-let leaf = "^"
-let petal = "o"
+func room() -> String {
+    return "      "
+}
 
+func top() -> String {
+    return beak + head + back
+}
 
-func createFlower() -> String {
-    return
+func Body() -> String {
+    return body
 }
 
 for _ in 1...3 {
-    let flower = createFlower()
-    print(flower)
+    print(top() + trail() + top() + trail() + top())
+    print(Body() + room() + Body() + room() + Body())
 }
-
-
->(.)__ <(.)__ =(.)__
- (___/  (___/  (___/
