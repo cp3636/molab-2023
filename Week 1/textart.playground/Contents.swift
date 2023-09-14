@@ -2,19 +2,16 @@ import UIKit
 
 var greeting = "Hello, playground"
 
-let ear = "^"
-let eye = "°"
-let nose = "."
 
-func makeCat() -> String {
-    return """
-    \(ear)\(ear)
-    \(eye) \(eye)
-      \(nose)
-    """
+
+let stem = "|"
+let petal = "o"
+
+func createFlower() -> String {
+    return stem + petal + petal + stem
 }
 
 for _ in 1...3 {
-    let cat = makeCat()
-    print(cat)
+    let flower = createFlower()
+    print(flower)
 }
