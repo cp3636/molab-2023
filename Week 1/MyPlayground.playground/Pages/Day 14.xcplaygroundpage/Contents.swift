@@ -12,9 +12,9 @@ let opposites = {
     "Mario: Peach"
     "Luigi: Daisy"
 }
-let yoshiOpposite = opposite["Yoshi"]
+let yoshiOpposite = opposites["Yoshi"]
 
-if let marioOpposite = opposite["Mario"]{
+if let marioOpposite = opposites["Mario"]{
     print("Mario's opposite is \(marioOpposite)")
 }
 var username: String? = nil
@@ -32,7 +32,7 @@ func square(number: Int) -> Int {
 }
 
 var number: Int? = nil
-print(square(number: nnumber))
+print(square(number: number))
 
 //unwrap to use optional
 
@@ -58,7 +58,7 @@ if let unwrapped = myVar {
 guard let unwrapped = myVar else {
     print("Run if myVar doesn't have a value inside")
 }
-func printSquare(of number: Int?) {
+func printSquare2(of number: Int?) {
     guard let number = number else{
         return
     }
@@ -68,8 +68,8 @@ func printSquare(of number: Int?) {
 //"??"
 
 let captains = [
-"Enterprise": "Picard"
-"Voyager": "Janesway"
+"Enterprise": "Picard",
+"Voyager": "Janesway",
 "Defiant": "Cisco"
 ]
 let newCaptain = "Serenity"
@@ -87,3 +87,42 @@ struct Book {
 let book = Book(title: "Beowulf", author: nil)
 let author = book.author ?? "Anonymous"
 print(author)
+
+//use nil to provide a default value
+
+let input = ""
+let number2 = Int(input) ?? 0
+print(number2)
+
+//How to handle multiiple optionals using optional chaining
+
+//optional chaining is a simplified syntax for reading optionals inside optionals
+
+let names = ["Elena", "Fiona", "Bella", "Samantha"]
+ 
+let chosen = names.randomElement()?.uppercased() ?? "No one"
+print("next in line: \(chosen)")
+
+struct Book2 {
+    let title:String
+    let author2: String?
+}
+var book: Book? = nil
+let author2 = book?.author2?.first?.uppercased() ?? "A"
+print(author2)
+
+//How to handle function failure with optionals
+
+enum UserError: Error {
+    case badID, networkFailed
+}
+func getUser(id: Int) throws -> String{
+    throw UserError.networkFailed
+}
+if let user = try? getUser(id: 23){
+    print("User: \(user)")
+}
+let user = (try? getUser(id: 23)) ?? "Anon"
+print(user)
+
+//Checkpoint 9
