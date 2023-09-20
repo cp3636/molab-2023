@@ -4,4 +4,4 @@ import Foundation
 
 var greeting = "Hello, playground"
 
-//: [Next](@next)
+//Day 14: 
