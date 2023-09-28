@@ -23,18 +23,28 @@ struct ContentView: View {
             ["🌻", "🌺", "🌻", "🌻", "🌺", "🌻"]
         ]
 
-        return VStack(spacing: 0) {
-            ForEach(0..<flowers.count, id: \.self) { row in
-                HStack(spacing: 0) {
-                    ForEach(0..<flowers[row].count, id: \.self) { col in
-                        Text(flowers[row][col])
-                            .font(.system(size: 30))
-                            .padding(5)
-                    }
-                }
+        func pickRandomInt() -> Int {
+            return Int.random(in: 0..<flowers.count)
+        }
+
+        let randomRow = pickRandomInt()
+        
+        let flowerRow = flowers[randomRow]
+     
+
+        return HStack(spacing: 0) {
+            ForEach(0..<flowerRow.count, id: \.self) { col in
+                Text(flowerRow[col])
+                    .font(.system(size: 30))
+                    .padding(5)
+        
             }
         }
     }
+
+
+        }
+    
 
     func SunAndClouds() -> some View {
         return VStack {
@@ -52,7 +62,7 @@ struct ContentView: View {
         return Color(UIColor(red: 144/255, green: 238/255, blue: 144/255, alpha: 1.0))
             .frame(height: 300)
     }
-}
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
