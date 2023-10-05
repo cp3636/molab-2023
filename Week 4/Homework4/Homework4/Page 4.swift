@@ -5,11 +5,6 @@
 //  Created by Clarissa Pace on 10/4/23.
 //
 import SwiftUI
-let imagesItems: [Item] = [
-    Item(urlStr: "https://tinyurl.com/mwhy5s9k", name: "Songs"),
-    Item(urlStr: "https://tinyurl.com/4xa4n9wk", name: "Dog"),
-]
-
 
 struct Page4: View {
     var body: some View {
@@ -32,12 +27,20 @@ struct Page4: View {
                 NavigationLink {
                     Songs()
                 } label: {
+                  
+                    Image(uiImage: UIImage(named: "Music")!)
+                        .resizable()
+                        .frame(width: 100, height: 100)
                     Text("Songs")
                         .foregroundColor(.blue)
                 }
                 NavigationLink {
                     Dog()
                 } label: {
+                    Image(uiImage: UIImage(named: "Dog")!)
+                        .resizable()
+                        .frame(width: 100, height: 100)
+                    
                     Text("Dog")
                         .foregroundColor(.pink)
                  
