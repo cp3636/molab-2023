@@ -13,19 +13,19 @@ let imagesItems: [Item] = [
 
 struct Page4: View {
     var body: some View {
-        
         NavigationView {
             List {
                 
+                    
                 NavigationLink {
                     Page3()
                 } label: {
                     Text("Clarissa's Page")
-                        .font(.largeTitle)
+
                         .foregroundColor(.teal)
                         .frame(maxWidth: .infinity)
                     
-                        .font(.subheadline)
+                        .font(.title)
                         .foregroundColor(.blue)
                     
                 }
@@ -33,11 +33,13 @@ struct Page4: View {
                     Songs()
                 } label: {
                     Text("Songs")
+                        .foregroundColor(.blue)
                 }
                 NavigationLink {
                     Dog()
                 } label: {
                     Text("Dog")
+                        .foregroundColor(.pink)
                  
                 }
             }

@@ -15,11 +15,12 @@
 		CEF4ECE32ACDF4DB005C3055 /* Page 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4ECE22ACDF4DB005C3055 /* Page 3.swift */; };
 		CEF4ECE52ACE030E005C3055 /* Songs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4ECE42ACE030E005C3055 /* Songs.swift */; };
 		CEF4ECED2ACE0AF2005C3055 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4ECEC2ACE0AF2005C3055 /* Dog.swift */; };
-		CEF4ECF32ACE0E62005C3055 /* Snore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEF4ECF22ACE0E62005C3055 /* Snore.mp3 */; };
-		CEF4ECF72ACE16EB005C3055 /* popular.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEF4ECF62ACE16EB005C3055 /* popular.mp3 */; };
-		CEF4ECF92ACE16F6005C3055 /* world.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEF4ECF82ACE16F6005C3055 /* world.mp3 */; };
-		CEF4ECFB2ACE16FB005C3055 /* mr. rager.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEF4ECFA2ACE16FB005C3055 /* mr. rager.mp3 */; };
 		CEF4ECFD2ACE2F6E005C3055 /* Page 4.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4ECFC2ACE2F6E005C3055 /* Page 4.swift */; };
+		CEF4ED032ACEF4E2005C3055 /* popular.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEF4ECFE2ACEF4E2005C3055 /* popular.mp3 */; };
+		CEF4ED042ACEF4E2005C3055 /* world.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEF4ECFF2ACEF4E2005C3055 /* world.mp3 */; };
+		CEF4ED052ACEF4E2005C3055 /* mr. rager.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEF4ED002ACEF4E2005C3055 /* mr. rager.mp3 */; };
+		CEF4ED062ACEF4E2005C3055 /* Bark.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEF4ED012ACEF4E2005C3055 /* Bark.mp3 */; };
+		CEF4ED072ACEF4E2005C3055 /* Snore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEF4ED022ACEF4E2005C3055 /* Snore.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,13 +32,13 @@
 		CEF4ECDF2ACDF49D005C3055 /* Page 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Page 1.swift"; sourceTree = "<group>"; };
 		CEF4ECE22ACDF4DB005C3055 /* Page 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Page 3.swift"; sourceTree = "<group>"; };
 		CEF4ECE42ACE030E005C3055 /* Songs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Songs.swift; sourceTree = "<group>"; };
-		CEF4ECEB2ACE0712005C3055 /* Bark.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bark.mp3; sourceTree = "<group>"; };
 		CEF4ECEC2ACE0AF2005C3055 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
-		CEF4ECF22ACE0E62005C3055 /* Snore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Snore.mp3; path = ../../../../../Sounds/Snore.mp3; sourceTree = "<group>"; };
-		CEF4ECF62ACE16EB005C3055 /* popular.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = popular.mp3; path = ../../../../../Sounds/popular.mp3; sourceTree = "<group>"; };
-		CEF4ECF82ACE16F6005C3055 /* world.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = world.mp3; path = ../../../../../Sounds/world.mp3; sourceTree = "<group>"; };
-		CEF4ECFA2ACE16FB005C3055 /* mr. rager.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "mr. rager.mp3"; path = "../../../../../Sounds/mr. rager.mp3"; sourceTree = "<group>"; };
 		CEF4ECFC2ACE2F6E005C3055 /* Page 4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Page 4.swift"; sourceTree = "<group>"; };
+		CEF4ECFE2ACEF4E2005C3055 /* popular.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = popular.mp3; path = Audio/popular.mp3; sourceTree = SOURCE_ROOT; };
+		CEF4ECFF2ACEF4E2005C3055 /* world.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = world.mp3; path = Audio/world.mp3; sourceTree = SOURCE_ROOT; };
+		CEF4ED002ACEF4E2005C3055 /* mr. rager.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "mr. rager.mp3"; path = "Audio/mr. rager.mp3"; sourceTree = SOURCE_ROOT; };
+		CEF4ED012ACEF4E2005C3055 /* Bark.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Bark.mp3; path = Audio/Bark.mp3; sourceTree = SOURCE_ROOT; };
+		CEF4ED022ACEF4E2005C3055 /* Snore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Snore.mp3; path = Audio/Snore.mp3; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +96,11 @@
 		CEF4ECE62ACE0558005C3055 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
-				CEF4ECFA2ACE16FB005C3055 /* mr. rager.mp3 */,
-				CEF4ECF82ACE16F6005C3055 /* world.mp3 */,
-				CEF4ECF62ACE16EB005C3055 /* popular.mp3 */,
-				CEF4ECF22ACE0E62005C3055 /* Snore.mp3 */,
-				CEF4ECEB2ACE0712005C3055 /* Bark.mp3 */,
+				CEF4ED012ACEF4E2005C3055 /* Bark.mp3 */,
+				CEF4ED002ACEF4E2005C3055 /* mr. rager.mp3 */,
+				CEF4ECFE2ACEF4E2005C3055 /* popular.mp3 */,
+				CEF4ED022ACEF4E2005C3055 /* Snore.mp3 */,
+				CEF4ECFF2ACEF4E2005C3055 /* world.mp3 */,
 			);
 			path = Audio;
 			sourceTree = "<group>";
@@ -162,12 +163,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEF4ECF72ACE16EB005C3055 /* popular.mp3 in Resources */,
-				CEF4ECF92ACE16F6005C3055 /* world.mp3 in Resources */,
+				CEF4ED062ACEF4E2005C3055 /* Bark.mp3 in Resources */,
 				CEF4ECD72ACDF3D2005C3055 /* Preview Assets.xcassets in Resources */,
-				CEF4ECF32ACE0E62005C3055 /* Snore.mp3 in Resources */,
+				CEF4ED032ACEF4E2005C3055 /* popular.mp3 in Resources */,
 				CEF4ECD42ACDF3D2005C3055 /* Assets.xcassets in Resources */,
-				CEF4ECFB2ACE16FB005C3055 /* mr. rager.mp3 in Resources */,
+				CEF4ED042ACEF4E2005C3055 /* world.mp3 in Resources */,
+				CEF4ED052ACEF4E2005C3055 /* mr. rager.mp3 in Resources */,
+				CEF4ED072ACEF4E2005C3055 /* Snore.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
