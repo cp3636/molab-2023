@@ -24,6 +24,7 @@
 		CEF4ED0A2ACEF86D005C3055 /* Dog.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF4ED092ACEF86D005C3055 /* Dog.png */; };
 		CEF4ED0C2ACEF8EE005C3055 /* Music.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF4ED0B2ACEF8EE005C3055 /* Music.png */; };
 		CEF4ED0E2ACEF9EA005C3055 /* Clarissa.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CEF4ED0D2ACEF9EA005C3055 /* Clarissa.jpeg */; };
+		CEF4ED102ACEFAFA005C3055 /* Page 5.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4ED0F2ACEFAFA005C3055 /* Page 5.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		CEF4ED092ACEF86D005C3055 /* Dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dog.png; path = Images/Dog.png; sourceTree = SOURCE_ROOT; };
 		CEF4ED0B2ACEF8EE005C3055 /* Music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Music.png; path = Images/Music.png; sourceTree = SOURCE_ROOT; };
 		CEF4ED0D2ACEF9EA005C3055 /* Clarissa.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Clarissa.jpeg; path = Images/Clarissa.jpeg; sourceTree = SOURCE_ROOT; };
+		CEF4ED0F2ACEFAFA005C3055 /* Page 5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Page 5.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				CEF4ECDF2ACDF49D005C3055 /* Page 1.swift */,
 				CEF4ECDD2ACDF483005C3055 /* Page 2.swift */,
 				CEF4ECE22ACDF4DB005C3055 /* Page 3.swift */,
+				CEF4ED0F2ACEFAFA005C3055 /* Page 5.swift */,
 				CEF4ECE42ACE030E005C3055 /* Songs.swift */,
 				CEF4ECEC2ACE0AF2005C3055 /* Dog.swift */,
 				CEF4ECFC2ACE2F6E005C3055 /* Page 4.swift */,
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEF4ECE52ACE030E005C3055 /* Songs.swift in Sources */,
+				CEF4ED102ACEFAFA005C3055 /* Page 5.swift in Sources */,
 				CEF4ECE02ACDF49D005C3055 /* Page 1.swift in Sources */,
 				CEF4ECED2ACE0AF2005C3055 /* Dog.swift in Sources */,
 				CEF4ECDE2ACDF483005C3055 /* Page 2.swift in Sources */,
