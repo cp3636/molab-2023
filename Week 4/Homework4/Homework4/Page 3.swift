@@ -4,8 +4,9 @@
 //
 import SwiftUI
 
-struct Page4: View {
+struct Page3: View {
     var body: some View {
+        VStack {
         NavigationView {
             List(imageItems) { item in
                 NavigationLink(destination: ItemDetail(item: item)) {
@@ -17,16 +18,26 @@ struct Page4: View {
             .toolbar {
                 ToolbarItem(placement: .principal) {
                     VStack {
+                        
                         Text("Clarissa's Page")
                             .font(.largeTitle)
                             .multilineTextAlignment(.center)
+                            .foregroundColor(.teal)
                             .frame(maxWidth: .infinity)
+                        Text("Things I hear often")
+                            .font(.subheadline)
+                            .foregroundColor(.blue)
+                        
                     }
+                    .padding()
                 }
+            
+            }
             }
         }
     }
 }
+
 
 struct ItemDetail: View {
     var item: Item
@@ -98,6 +109,6 @@ struct ItemRow: View {
 
 struct Page4_Previews: PreviewProvider {
     static var previews: some View {
-        Page4()
+        Page3()
     }
 }

@@ -57,7 +57,7 @@ struct Songs: View {
     }
 }
 
-struct Page3_Previews: PreviewProvider {
+struct Songs_Previews: PreviewProvider {
     static var previews: some View {
         Songs()
     }

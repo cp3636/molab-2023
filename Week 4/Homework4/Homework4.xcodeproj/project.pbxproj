@@ -19,6 +19,7 @@
 		CEF4ECF72ACE16EB005C3055 /* popular.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEF4ECF62ACE16EB005C3055 /* popular.mp3 */; };
 		CEF4ECF92ACE16F6005C3055 /* world.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEF4ECF82ACE16F6005C3055 /* world.mp3 */; };
 		CEF4ECFB2ACE16FB005C3055 /* mr. rager.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEF4ECFA2ACE16FB005C3055 /* mr. rager.mp3 */; };
+		CEF4ECFD2ACE2F6E005C3055 /* Page 4.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4ECFC2ACE2F6E005C3055 /* Page 4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		CEF4ECF62ACE16EB005C3055 /* popular.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = popular.mp3; path = ../../../../../Sounds/popular.mp3; sourceTree = "<group>"; };
 		CEF4ECF82ACE16F6005C3055 /* world.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = world.mp3; path = ../../../../../Sounds/world.mp3; sourceTree = "<group>"; };
 		CEF4ECFA2ACE16FB005C3055 /* mr. rager.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "mr. rager.mp3"; path = "../../../../../Sounds/mr. rager.mp3"; sourceTree = "<group>"; };
+		CEF4ECFC2ACE2F6E005C3055 /* Page 4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Page 4.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				CEF4ECE22ACDF4DB005C3055 /* Page 3.swift */,
 				CEF4ECE42ACE030E005C3055 /* Songs.swift */,
 				CEF4ECEC2ACE0AF2005C3055 /* Dog.swift */,
+				CEF4ECFC2ACE2F6E005C3055 /* Page 4.swift */,
 				CEF4ECD32ACDF3D2005C3055 /* Assets.xcassets */,
 				CEF4ECE62ACE0558005C3055 /* Audio */,
 				CEF4ECD52ACDF3D2005C3055 /* Preview Content */,
@@ -181,6 +184,7 @@
 				CEF4ECDE2ACDF483005C3055 /* Page 2.swift in Sources */,
 				CEF4ECD02ACDF3CF005C3055 /* Homework4App.swift in Sources */,
 				CEF4ECE32ACDF4DB005C3055 /* Page 3.swift in Sources */,
+				CEF4ECFD2ACE2F6E005C3055 /* Page 4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

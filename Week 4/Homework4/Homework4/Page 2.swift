@@ -11,7 +11,6 @@ struct Item: Identifiable {
 }
 
 let imageItems: [Item] = [
-    Item(urlStr: "https://tinyurl.com/munedz7j", name: "Clarissa"),
     Item(urlStr: "https://tinyurl.com/mwhy5s9k", name: "Songs"),
     Item(urlStr: "https://tinyurl.com/4xa4n9wk", name: "Dog"),
 ]

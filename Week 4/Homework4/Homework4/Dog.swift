@@ -12,7 +12,7 @@ let localAudioFiles = [
 
 // Load an audio file from the app bundle and return an AVAudioPlayer for it
 func loadLocalAudio(_ fileName: String) -> AVAudioPlayer? {
-    if let url = Bundle.main.url(forResource: fileName, withExtension: "mp3") { // Specify the file extension
+    if let url = Bundle.main.url(forResource: fileName, withExtension: "mp3") {
         do {
             return try AVAudioPlayer(contentsOf: url)
         } catch {
@@ -41,7 +41,7 @@ struct Dog: View {
                         player = loadLocalAudio(audioFile)
                         if let player = player {
                             print("Loaded audio file: \(audioFile)")
-                            // Loop indefinitely
+                            //LOOP
                             player.numberOfLoops = -1
                             player.play()
                         } else {
@@ -77,7 +77,7 @@ struct Dog: View {
     }
 }
 
-struct Songs_Previews: PreviewProvider {
+struct Sound_Previews: PreviewProvider {
     static var previews: some View {
         Dog()
     }
