@@ -107,7 +107,7 @@ struct ItemRow: View {
     }
 }
 
-struct Page4_Previews: PreviewProvider {
+struct Page3_Previews: PreviewProvider {
     static var previews: some View {
         Page3()
     }

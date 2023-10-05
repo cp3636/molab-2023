@@ -10,7 +10,7 @@ struct ImageUiDemo_urlsApp: App {
     var body: some Scene {
         WindowGroup {
             // This is the starting page for the app
-            Page3();
+            Page4();
         }
     }
 }
