@@ -6,11 +6,13 @@
 //
 
 import Foundation
+
 import SwiftUI
 
 struct CountSheep: View {
     @AppStorage("username") var username: String = "Anonymous"
     @AppStorage("score") var score: Int = 0
+    @State private var isPulsing = false
 
     var body: some View {
         ZStack {
@@ -29,7 +31,6 @@ struct CountSheep: View {
                     .foregroundColor(.white)
                     .font(.title)
 
-             
                 HStack {
                     Button("+ Sheep") {
                         score += 1
@@ -49,63 +50,19 @@ struct CountSheep: View {
                 Spacer()
             }
 
-            Image(systemName: "star.fill")
-                .resizable()
-                .frame(width: 20, height: 20)
-                .foregroundColor(.white)
-                .position(x: 50, y: 50)
-            Image(systemName: "star.fill")
-                .resizable()
-                .frame(width: 20, height: 20)
-                .foregroundColor(.white)
-                .position(x: 100, y: 100)
-            Image(systemName: "star.fill")
-                .resizable()
-                .frame(width: 20, height: 20)
-                .foregroundColor(.white)
-                .position(x: 300, y: 100)
-            Image(systemName: "star.fill")
-                .resizable()
-                .frame(width: 20, height: 20)
-                .foregroundColor(.white)
-                .position(x: 350, y: 50)
-            Image(systemName: "star.fill")
-                .resizable()
-                .frame(width: 20, height: 20)
-                .foregroundColor(.white)
-                .position(x: 200, y: 150)
-            Image(systemName: "star.fill")
-                .resizable()
-                .frame(width: 20, height: 20)
-                .foregroundColor(.white)
-                .position(x: 80, y: 150)
-            Image(systemName: "star.fill")
-                .resizable()
-                .frame(width: 20, height: 20)
-                .foregroundColor(.white)
-                .position(x: 340, y: 150)
-            Image(systemName: "star.fill")
-                .resizable()
-                .frame(width: 20, height: 20)
-                .foregroundColor(.white)
-                .position(x: 100, y: 30)
-            Image(systemName: "star.fill")
-                .resizable()
-                .frame(width: 20, height: 20)
-                .foregroundColor(.white)
-                .position(x: 40, y: 120)
-            Image(systemName: "star.fill")
-                .resizable()
-                .frame(width: 20, height: 20)
-                .foregroundColor(.white)
-                .position(x: 300, y: 30)
-            Image(systemName: "star.fill")
-                .resizable()
-                .frame(width: 20, height: 20)
-                .foregroundColor(.white)
-                .position(x: 280, y: 150)
+            ForEach(1..<5) { _ in
+                Image(systemName: "star.fill")
+                    .resizable()
+                    .frame(width: isPulsing ? 30 : 20, height: isPulsing ? 30 : 20) //
+                    .foregroundColor(.white)
+                    .position(x: CGFloat.random(in: 30...400), y: CGFloat.random(in: 30...170))
+            }
         }
-        
+        .onAppear {
+            withAnimation(Animation.easeInOut(duration: 2).repeatForever()) {
+                isPulsing.toggle()
+            }
+        }
     }
 }
 
@@ -114,3 +71,4 @@ struct CountSheep_Previews: PreviewProvider {
         CountSheep()
     }
 }
+
