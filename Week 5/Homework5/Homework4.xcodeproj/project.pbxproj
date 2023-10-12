@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE7FE2582AD73C5100C344B1 /* Count sheep.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7FE2572AD73C5100C344B1 /* Count sheep.swift */; };
+		CE7FE25A2AD744BE00C344B1 /* moon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7FE2592AD744BE00C344B1 /* moon.png */; };
+		CE7FE25E2AD7467D00C344B1 /* music.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7FE25D2AD7467D00C344B1 /* music.jpg */; };
+		CEF4ECD02ACDF3CF005C3055 /* Homework4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4ECCF2ACDF3CF005C3055 /* Homework4App.swift */; };
+		CEF4ECD42ACDF3D2005C3055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF4ECD32ACDF3D2005C3055 /* Assets.xcassets */; };
+		CEF4ECD72ACDF3D2005C3055 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF4ECD62ACDF3D2005C3055 /* Preview Assets.xcassets */; };
+		CEF4ECDE2ACDF483005C3055 /* Page 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4ECDD2ACDF483005C3055 /* Page 2.swift */; };
+		CEF4ECE02ACDF49D005C3055 /* Page 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4ECDF2ACDF49D005C3055 /* Page 1.swift */; };
+		CEF4ECE32ACDF4DB005C3055 /* Page 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4ECE22ACDF4DB005C3055 /* Page 3.swift */; };
+		CEF4ECE52ACE030E005C3055 /* Songs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4ECE42ACE030E005C3055 /* Songs.swift */; };
+		CEF4ECED2ACE0AF2005C3055 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4ECEC2ACE0AF2005C3055 /* Dog.swift */; };
+		CEF4ECFD2ACE2F6E005C3055 /* Page 4.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4ECFC2ACE2F6E005C3055 /* Page 4.swift */; };
+		CEF4ED032ACEF4E2005C3055 /* popular.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEF4ECFE2ACEF4E2005C3055 /* popular.mp3 */; };
+		CEF4ED042ACEF4E2005C3055 /* world.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEF4ECFF2ACEF4E2005C3055 /* world.mp3 */; };
+		CEF4ED052ACEF4E2005C3055 /* mr. rager.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEF4ED002ACEF4E2005C3055 /* mr. rager.mp3 */; };
+		CEF4ED062ACEF4E2005C3055 /* Bark.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEF4ED012ACEF4E2005C3055 /* Bark.mp3 */; };
+		CEF4ED072ACEF4E2005C3055 /* Snore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEF4ED022ACEF4E2005C3055 /* Snore.mp3 */; };
+		CEF4ED0A2ACEF86D005C3055 /* Dog.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF4ED092ACEF86D005C3055 /* Dog.png */; };
+		CEF4ED0E2ACEF9EA005C3055 /* Clarissa.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CEF4ED0D2ACEF9EA005C3055 /* Clarissa.jpeg */; };
+		CEF4ED102ACEFAFA005C3055 /* Page 5.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF4ED0F2ACEFAFA005C3055 /* Page 5.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE7FE2572AD73C5100C344B1 /* Count sheep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Count sheep.swift"; sourceTree = "<group>"; };
+		CE7FE2592AD744BE00C344B1 /* moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moon.png; path = Images/moon.png; sourceTree = SOURCE_ROOT; };
+		CE7FE25D2AD7467D00C344B1 /* music.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = music.jpg; path = Images/music.jpg; sourceTree = SOURCE_ROOT; };
+		CEF4ECCC2ACDF3CF005C3055 /* Homework4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF4ECCF2ACDF3CF005C3055 /* Homework4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework4App.swift; sourceTree = "<group>"; };
+		CEF4ECD32ACDF3D2005C3055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEF4ECD62ACDF3D2005C3055 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEF4ECDD2ACDF483005C3055 /* Page 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Page 2.swift"; sourceTree = "<group>"; };
+		CEF4ECDF2ACDF49D005C3055 /* Page 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Page 1.swift"; sourceTree = "<group>"; };
+		CEF4ECE22ACDF4DB005C3055 /* Page 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Page 3.swift"; sourceTree = "<group>"; };
+		CEF4ECE42ACE030E005C3055 /* Songs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Songs.swift; sourceTree = "<group>"; };
+		CEF4ECEC2ACE0AF2005C3055 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		CEF4ECFC2ACE2F6E005C3055 /* Page 4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Page 4.swift"; sourceTree = "<group>"; };
+		CEF4ECFE2ACEF4E2005C3055 /* popular.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = popular.mp3; path = Audio/popular.mp3; sourceTree = SOURCE_ROOT; };
+		CEF4ECFF2ACEF4E2005C3055 /* world.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = world.mp3; path = Audio/world.mp3; sourceTree = SOURCE_ROOT; };
+		CEF4ED002ACEF4E2005C3055 /* mr. rager.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "mr. rager.mp3"; path = "Audio/mr. rager.mp3"; sourceTree = SOURCE_ROOT; };
+		CEF4ED012ACEF4E2005C3055 /* Bark.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Bark.mp3; path = Audio/Bark.mp3; sourceTree = SOURCE_ROOT; };
+		CEF4ED022ACEF4E2005C3055 /* Snore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Snore.mp3; path = Audio/Snore.mp3; sourceTree = SOURCE_ROOT; };
+		CEF4ED092ACEF86D005C3055 /* Dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Dog.png; path = Images/Dog.png; sourceTree = SOURCE_ROOT; };
+		CEF4ED0D2ACEF9EA005C3055 /* Clarissa.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Clarissa.jpeg; path = Images/Clarissa.jpeg; sourceTree = SOURCE_ROOT; };
+		CEF4ED0F2ACEFAFA005C3055 /* Page 5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Page 5.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEF4ECC92ACDF3CF005C3055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEF4ECC32ACDF3CF005C3055 = {
+			isa = PBXGroup;
+			children = (
+				CEF4ECCE2ACDF3CF005C3055 /* Homework4 */,
+				CEF4ECCD2ACDF3CF005C3055 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEF4ECCD2ACDF3CF005C3055 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF4ECCC2ACDF3CF005C3055 /* Homework4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEF4ECCE2ACDF3CF005C3055 /* Homework4 */ = {
+			isa = PBXGroup;
+			children = (
+				CEF4ECCF2ACDF3CF005C3055 /* Homework4App.swift */,
+				CEF4ECDF2ACDF49D005C3055 /* Page 1.swift */,
+				CEF4ECDD2ACDF483005C3055 /* Page 2.swift */,
+				CEF4ECE22ACDF4DB005C3055 /* Page 3.swift */,
+				CEF4ED0F2ACEFAFA005C3055 /* Page 5.swift */,
+				CEF4ECE42ACE030E005C3055 /* Songs.swift */,
+				CEF4ECEC2ACE0AF2005C3055 /* Dog.swift */,
+				CE7FE2572AD73C5100C344B1 /* Count sheep.swift */,
+				CEF4ECFC2ACE2F6E005C3055 /* Page 4.swift */,
+				CEF4ECD32ACDF3D2005C3055 /* Assets.xcassets */,
+				CEF4ECE62ACE0558005C3055 /* Audio */,
+				CEF4ECD52ACDF3D2005C3055 /* Preview Content */,
+			);
+			path = Homework4;
+			sourceTree = "<group>";
+		};
+		CEF4ECD52ACDF3D2005C3055 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CEF4ECD62ACDF3D2005C3055 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEF4ECE62ACE0558005C3055 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				CEF4ED012ACEF4E2005C3055 /* Bark.mp3 */,
+				CEF4ED002ACEF4E2005C3055 /* mr. rager.mp3 */,
+				CEF4ECFE2ACEF4E2005C3055 /* popular.mp3 */,
+				CEF4ED022ACEF4E2005C3055 /* Snore.mp3 */,
+				CEF4ECFF2ACEF4E2005C3055 /* world.mp3 */,
+				CEF4ED082ACEF837005C3055 /* IImages */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		CEF4ED082ACEF837005C3055 /* IImages */ = {
+			isa = PBXGroup;
+			children = (
+				CEF4ED092ACEF86D005C3055 /* Dog.png */,
+				CE7FE25D2AD7467D00C344B1 /* music.jpg */,
+				CE7FE2592AD744BE00C344B1 /* moon.png */,
+				CEF4ED0D2ACEF9EA005C3055 /* Clarissa.jpeg */,
+			);
+			path = IImages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEF4ECCB2ACDF3CF005C3055 /* Homework4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEF4ECDA2ACDF3D2005C3055 /* Build configuration list for PBXNativeTarget "Homework4" */;
+			buildPhases = (
+				CEF4ECC82ACDF3CF005C3055 /* Sources */,
+				CEF4ECC92ACDF3CF005C3055 /* Frameworks */,
+				CEF4ECCA2ACDF3CF005C3055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Homework4;
+			productName = Homework4;
+			productReference = CEF4ECCC2ACDF3CF005C3055 /* Homework4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEF4ECC42ACDF3CF005C3055 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CEF4ECCB2ACDF3CF005C3055 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = CEF4ECC72ACDF3CF005C3055 /* Build configuration list for PBXProject "Homework4" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEF4ECC32ACDF3CF005C3055;
+			productRefGroup = CEF4ECCD2ACDF3CF005C3055 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEF4ECCB2ACDF3CF005C3055 /* Homework4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEF4ECCA2ACDF3CF005C3055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF4ED062ACEF4E2005C3055 /* Bark.mp3 in Resources */,
+				CEF4ECD72ACDF3D2005C3055 /* Preview Assets.xcassets in Resources */,
+				CEF4ED032ACEF4E2005C3055 /* popular.mp3 in Resources */,
+				CEF4ECD42ACDF3D2005C3055 /* Assets.xcassets in Resources */,
+				CEF4ED0A2ACEF86D005C3055 /* Dog.png in Resources */,
+				CE7FE25E2AD7467D00C344B1 /* music.jpg in Resources */,
+				CEF4ED042ACEF4E2005C3055 /* world.mp3 in Resources */,
+				CE7FE25A2AD744BE00C344B1 /* moon.png in Resources */,
+				CEF4ED052ACEF4E2005C3055 /* mr. rager.mp3 in Resources */,
+				CEF4ED072ACEF4E2005C3055 /* Snore.mp3 in Resources */,
+				CEF4ED0E2ACEF9EA005C3055 /* Clarissa.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEF4ECC82ACDF3CF005C3055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7FE2582AD73C5100C344B1 /* Count sheep.swift in Sources */,
+				CEF4ECE52ACE030E005C3055 /* Songs.swift in Sources */,
+				CEF4ED102ACEFAFA005C3055 /* Page 5.swift in Sources */,
+				CEF4ECE02ACDF49D005C3055 /* Page 1.swift in Sources */,
+				CEF4ECED2ACE0AF2005C3055 /* Dog.swift in Sources */,
+				CEF4ECDE2ACDF483005C3055 /* Page 2.swift in Sources */,
+				CEF4ECD02ACDF3CF005C3055 /* Homework4App.swift in Sources */,
+				CEF4ECE32ACDF4DB005C3055 /* Page 3.swift in Sources */,
+				CEF4ECFD2ACE2F6E005C3055 /* Page 4.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CEF4ECD82ACDF3D2005C3055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEF4ECD92ACDF3D2005C3055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEF4ECDB2ACDF3D2005C3055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Homework4/Preview Content\"";
+				DEVELOPMENT_TEAM = 6N5NLAGF96;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cp3636.Homework4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEF4ECDC2ACDF3D2005C3055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Homework4/Preview Content\"";
+				DEVELOPMENT_TEAM = 6N5NLAGF96;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cp3636.Homework4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEF4ECC72ACDF3CF005C3055 /* Build configuration list for PBXProject "Homework4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF4ECD82ACDF3D2005C3055 /* Debug */,
+				CEF4ECD92ACDF3D2005C3055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEF4ECDA2ACDF3D2005C3055 /* Build configuration list for PBXNativeTarget "Homework4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEF4ECDB2ACDF3D2005C3055 /* Debug */,
+				CEF4ECDC2ACDF3D2005C3055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEF4ECC42ACDF3CF005C3055 /* Project object */;
+}
