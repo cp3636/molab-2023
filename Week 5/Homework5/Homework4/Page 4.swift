@@ -18,7 +18,7 @@ struct Page4: View {
                 NavigationLink {
                     Songs()
                 } label: {
-                    Image(uiImage: UIImage(named: "Music")!)
+                    Image(uiImage: UIImage(named: "music")!)
                         .resizable()
                         .frame(width: 100, height: 100)
                     Text("Songs")
