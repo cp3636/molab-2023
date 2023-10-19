@@ -13,37 +13,37 @@ struct Page4: View {
                 Text("Clarissa's Page")
                     .foregroundColor(.purple)
                     .font(.largeTitle)
-                   
                 
-                NavigationLink {
-                    Songs()
-                } label: {
-                    Image(uiImage: UIImage(named: "music")!)
-                        .resizable()
-                        .frame(width: 100, height: 100)
-                    Text("Songs")
-                        .foregroundColor(.cyan)
+                NavigationLink(destination: Songs()) {
+                    HStack {
+                        Image(systemName: "music.note")
+                            .resizable()
+                            .frame(width: 90, height: 100)
+                            .foregroundColor(.cyan)
+                        Text("Songs")
+                    }
                 }
-                NavigationLink {
-                    Dog()
-                } label: {
-                    Image(uiImage: UIImage(named: "Dog")!)
-                        .resizable()
-                        .frame(width: 100, height: 100)
-                    Text("Dog")
-                        .foregroundColor(.pink)
+                
+                NavigationLink(destination: Dog()) {
+                    HStack {
+                        Image("Dog")
+                            .resizable()
+                            .frame(width: 100, height: 100)
+                            .foregroundColor(.pink)
+                        Text("Dog")
+                    }
                 }
-                NavigationLink {
-                    CountSheep()
-                } label: {
-                    Image(uiImage: UIImage(named: "moon")!)
-                        .resizable()
-                        .frame(width: 90, height: 90)
-                    Text("Bed Time")
-                        .foregroundColor(.blue)
+                
+                NavigationLink(destination: CountSheep()) {
+                    HStack {
+                        Image(systemName: "moon.fill")
+                            .resizable()
+                            .frame(width: 90, height: 90)
+                            .foregroundColor(.blue)
+                        Text("Bed Time")
+                    }
                 }
             }
-           
         }
     }
 }
