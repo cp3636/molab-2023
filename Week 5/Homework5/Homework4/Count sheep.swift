@@ -50,7 +50,7 @@ struct CountSheep: View {
                 Spacer()
             }
 
-            ForEach(1..<5) { _ in
+            ForEach(1..<7) { _ in
                 Image(systemName: "star.fill")
                     .resizable()
                     .frame(width: isPulsing ? 30 : 20, height: isPulsing ? 30 : 20) //
