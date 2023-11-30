@@ -23,7 +23,7 @@ struct CountSheep: View {
                         .font(.system(size: 100))
                 }
 
-                Spacer()
+              Spacer()
 
                 Text("Can't sleep? Count sheep!")
                     .foregroundColor(.white)
@@ -45,8 +45,9 @@ struct CountSheep: View {
                 Text("Sheep Count: \(String(repeating: "🐑", count: score))")
                     .foregroundColor(.white)
                     .font(.headline)
-
-                Spacer()
+                     Spacer()
+           
+            
             }
 
             Image(systemName: "star.fill")
