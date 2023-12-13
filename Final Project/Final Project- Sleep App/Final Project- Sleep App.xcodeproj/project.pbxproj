@@ -8,6 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		CE8247C82B1D6C54009AB398 /* FourthPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8247C72B1D6C54009AB398 /* FourthPage.swift */; };
+		CEE2F22A2B2A35B000B247F0 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2F2292B2A35B000B247F0 /* SoundPlayer.swift */; };
+		CEE2F2342B2A372600B247F0 /* NightTime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEE2F22B2B2A372600B247F0 /* NightTime.mp3 */; };
+		CEE2F2352B2A372600B247F0 /* Wind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEE2F22C2B2A372600B247F0 /* Wind.mp3 */; };
+		CEE2F2362B2A372600B247F0 /* Distance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEE2F22D2B2A372600B247F0 /* Distance.mp3 */; };
+		CEE2F2372B2A372600B247F0 /* Ylang Ylang.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEE2F22E2B2A372600B247F0 /* Ylang Ylang.mp3 */; };
+		CEE2F2382B2A372600B247F0 /* Clarity.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEE2F22F2B2A372600B247F0 /* Clarity.mp3 */; };
+		CEE2F2392B2A372600B247F0 /* OrangeHues.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEE2F2302B2A372600B247F0 /* OrangeHues.mp3 */; };
+		CEE2F23A2B2A372600B247F0 /* Stardust.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEE2F2312B2A372600B247F0 /* Stardust.mp3 */; };
+		CEE2F23B2B2A372600B247F0 /* Snooze.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEE2F2322B2A372600B247F0 /* Snooze.mp3 */; };
+		CEE2F23C2B2A372600B247F0 /* Dreaming.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CEE2F2332B2A372600B247F0 /* Dreaming.mp3 */; };
+		CEE2F23E2B2A4A9C00B247F0 /* SleepLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2F23D2B2A4A9C00B247F0 /* SleepLog.swift */; };
+		CEE2F2442B2A4F7100B247F0 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2F2432B2A4F7100B247F0 /* DateExtensions.swift */; };
+		CEE2F2462B2A50C900B247F0 /* SleepDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2F2452B2A50C900B247F0 /* SleepDataManager.swift */; };
+		CEE2F2482B2A515C00B247F0 /* SleepingLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2F2472B2A515C00B247F0 /* SleepingLogView.swift */; };
+		CEE2F24A2B2A518400B247F0 /* SleepingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2F2492B2A518400B247F0 /* SleepingViewModel.swift */; };
+		CEE2F24C2B2A51C200B247F0 /* PastLogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE2F24B2B2A51C200B247F0 /* PastLogsView.swift */; };
 		CEF83D4E2B17EA56004AE3DC /* Final_Project__Sleep_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF83D4D2B17EA56004AE3DC /* Final_Project__Sleep_AppApp.swift */; };
 		CEF83D502B17EA56004AE3DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF83D4F2B17EA56004AE3DC /* ContentView.swift */; };
 		CEF83D522B17EA59004AE3DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF83D512B17EA59004AE3DC /* Assets.xcassets */; };
@@ -18,8 +34,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE7BFB612B221BD50082F95D /* Final-Project--Sleep-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Final-Project--Sleep-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 		CE8247C72B1D6C54009AB398 /* FourthPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthPage.swift; sourceTree = "<group>"; };
-		CE8247C92B1D6FC0009AB398 /* SuperComic-qZg62.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SuperComic-qZg62.ttf"; path = "../../../../super-comic-font/SuperComic-qZg62.ttf"; sourceTree = "<group>"; };
+		CEE2F2292B2A35B000B247F0 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		CEE2F22B2B2A372600B247F0 /* NightTime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = NightTime.mp3; path = ../../Sounds/NightTime.mp3; sourceTree = "<group>"; };
+		CEE2F22C2B2A372600B247F0 /* Wind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Wind.mp3; path = ../../Sounds/Wind.mp3; sourceTree = "<group>"; };
+		CEE2F22D2B2A372600B247F0 /* Distance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Distance.mp3; path = ../../Sounds/Distance.mp3; sourceTree = "<group>"; };
+		CEE2F22E2B2A372600B247F0 /* Ylang Ylang.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Ylang Ylang.mp3"; path = "../../Sounds/Ylang Ylang.mp3"; sourceTree = "<group>"; };
+		CEE2F22F2B2A372600B247F0 /* Clarity.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Clarity.mp3; path = ../../Sounds/Clarity.mp3; sourceTree = "<group>"; };
+		CEE2F2302B2A372600B247F0 /* OrangeHues.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = OrangeHues.mp3; path = ../../Sounds/OrangeHues.mp3; sourceTree = "<group>"; };
+		CEE2F2312B2A372600B247F0 /* Stardust.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Stardust.mp3; path = ../../Sounds/Stardust.mp3; sourceTree = "<group>"; };
+		CEE2F2322B2A372600B247F0 /* Snooze.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Snooze.mp3; path = ../../Sounds/Snooze.mp3; sourceTree = "<group>"; };
+		CEE2F2332B2A372600B247F0 /* Dreaming.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Dreaming.mp3; path = ../../Sounds/Dreaming.mp3; sourceTree = "<group>"; };
+		CEE2F23D2B2A4A9C00B247F0 /* SleepLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepLog.swift; sourceTree = "<group>"; };
+		CEE2F2432B2A4F7100B247F0 /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		CEE2F2452B2A50C900B247F0 /* SleepDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepDataManager.swift; sourceTree = "<group>"; };
+		CEE2F2472B2A515C00B247F0 /* SleepingLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepingLogView.swift; sourceTree = "<group>"; };
+		CEE2F2492B2A518400B247F0 /* SleepingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepingViewModel.swift; sourceTree = "<group>"; };
+		CEE2F24B2B2A51C200B247F0 /* PastLogsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastLogsView.swift; sourceTree = "<group>"; };
 		CEF83D4A2B17EA56004AE3DC /* Final Project- Sleep App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project- Sleep App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF83D4D2B17EA56004AE3DC /* Final_Project__Sleep_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_Project__Sleep_AppApp.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.plist; };
 		CEF83D4F2B17EA56004AE3DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,13 +92,29 @@
 		CEF83D4C2B17EA56004AE3DC /* Final Project- Sleep App */ = {
 			isa = PBXGroup;
 			children = (
-				CE8247C92B1D6FC0009AB398 /* SuperComic-qZg62.ttf */,
+				CE7BFB612B221BD50082F95D /* Final-Project--Sleep-App-Info.plist */,
 				CEF83D4D2B17EA56004AE3DC /* Final_Project__Sleep_AppApp.swift */,
 				CEF83D4F2B17EA56004AE3DC /* ContentView.swift */,
 				CEF83D5B2B17EE01004AE3DC /* Count Sheep.swift */,
 				CEF83D5D2B17EE1B004AE3DC /* SecondPage.swift */,
+				CEE2F2292B2A35B000B247F0 /* SoundPlayer.swift */,
 				CEF83D5F2B17EE28004AE3DC /* Third Page.swift */,
 				CE8247C72B1D6C54009AB398 /* FourthPage.swift */,
+				CEE2F23D2B2A4A9C00B247F0 /* SleepLog.swift */,
+				CEE2F2452B2A50C900B247F0 /* SleepDataManager.swift */,
+				CEE2F2492B2A518400B247F0 /* SleepingViewModel.swift */,
+				CEE2F2472B2A515C00B247F0 /* SleepingLogView.swift */,
+				CEE2F24B2B2A51C200B247F0 /* PastLogsView.swift */,
+				CEE2F2432B2A4F7100B247F0 /* DateExtensions.swift */,
+				CEE2F22F2B2A372600B247F0 /* Clarity.mp3 */,
+				CEE2F22D2B2A372600B247F0 /* Distance.mp3 */,
+				CEE2F2332B2A372600B247F0 /* Dreaming.mp3 */,
+				CEE2F22B2B2A372600B247F0 /* NightTime.mp3 */,
+				CEE2F2302B2A372600B247F0 /* OrangeHues.mp3 */,
+				CEE2F2322B2A372600B247F0 /* Snooze.mp3 */,
+				CEE2F2312B2A372600B247F0 /* Stardust.mp3 */,
+				CEE2F22C2B2A372600B247F0 /* Wind.mp3 */,
+				CEE2F22E2B2A372600B247F0 /* Ylang Ylang.mp3 */,
 				CEF83D512B17EA59004AE3DC /* Assets.xcassets */,
 				CEF83D532B17EA59004AE3DC /* Preview Content */,
 			);
@@ -139,8 +187,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE2F23B2B2A372600B247F0 /* Snooze.mp3 in Resources */,
+				CEE2F2352B2A372600B247F0 /* Wind.mp3 in Resources */,
+				CEE2F2382B2A372600B247F0 /* Clarity.mp3 in Resources */,
 				CEF83D552B17EA59004AE3DC /* Preview Assets.xcassets in Resources */,
+				CEE2F23A2B2A372600B247F0 /* Stardust.mp3 in Resources */,
+				CEE2F23C2B2A372600B247F0 /* Dreaming.mp3 in Resources */,
+				CEE2F2342B2A372600B247F0 /* NightTime.mp3 in Resources */,
+				CEE2F2372B2A372600B247F0 /* Ylang Ylang.mp3 in Resources */,
+				CEE2F2392B2A372600B247F0 /* OrangeHues.mp3 in Resources */,
 				CEF83D522B17EA59004AE3DC /* Assets.xcassets in Resources */,
+				CEE2F2362B2A372600B247F0 /* Distance.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,9 +208,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE2F24C2B2A51C200B247F0 /* PastLogsView.swift in Sources */,
+				CEE2F2482B2A515C00B247F0 /* SleepingLogView.swift in Sources */,
+				CEE2F24A2B2A518400B247F0 /* SleepingViewModel.swift in Sources */,
 				CE8247C82B1D6C54009AB398 /* FourthPage.swift in Sources */,
+				CEE2F22A2B2A35B000B247F0 /* SoundPlayer.swift in Sources */,
 				CEF83D602B17EE28004AE3DC /* Third Page.swift in Sources */,
+				CEE2F2462B2A50C900B247F0 /* SleepDataManager.swift in Sources */,
 				CEF83D5E2B17EE1B004AE3DC /* SecondPage.swift in Sources */,
+				CEE2F2442B2A4F7100B247F0 /* DateExtensions.swift in Sources */,
+				CEE2F23E2B2A4A9C00B247F0 /* SleepLog.swift in Sources */,
 				CEF83D5C2B17EE01004AE3DC /* Count Sheep.swift in Sources */,
 				CEF83D502B17EA56004AE3DC /* ContentView.swift in Sources */,
 				CEF83D4E2B17EA56004AE3DC /* Final_Project__Sleep_AppApp.swift in Sources */,
@@ -293,6 +357,8 @@
 				DEVELOPMENT_TEAM = 6N5NLAGF96;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Final-Project--Sleep-App-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -322,6 +388,8 @@
 				DEVELOPMENT_TEAM = 6N5NLAGF96;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Final-Project--Sleep-App-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

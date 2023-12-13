@@ -20,13 +20,13 @@ struct ContentView: View {
                     .padding()
 
                 Text("Dream Well")
+                    .foregroundColor(.blue)
                     .font(.largeTitle)
                     .fontWeight(.bold)
-                    .foregroundColor(.blue)
 
                 Text("Relax and Unwind")
-                    .font(.title)
-                    .foregroundColor(.gray)
+                    .font(.title2)
+                    .foregroundColor(.white)
                     .padding(.bottom, 20)
 
                 LazyVGrid(columns: [GridItem(), GridItem()]) {
@@ -34,7 +34,7 @@ struct ContentView: View {
                         .buttonStyle(FirstButtonStyle())
                         .padding(.bottom, 20)
 
-                    NavigationLink("Bed Time Stories", destination: SecondPage())
+                    NavigationLink("Calming Mix", destination: SecondPage())
                         .buttonStyle(SecondButtonStyle())
                         .padding(.bottom, 20)
 
@@ -42,9 +42,10 @@ struct ContentView: View {
                         .buttonStyle(ThirdButtonStyle())
                         .padding(.bottom, 20)
 
-                    NavigationLink("More", destination: FourthPage())
+                    NavigationLink("Sleep Log", destination: FourthPage())
                         .buttonStyle(FourthButtonStyle())
                         .padding(.bottom, 20)
+                   
                 }
                 .padding()
 
@@ -68,6 +69,7 @@ struct FirstButtonStyle: ButtonStyle {
         configuration.label
             .padding()
             .foregroundColor(.white)
+            .fontWeight(.bold)
              .frame(width: 145, height: 141)
              .background(Color(red: 0.35, green: 0.61, blue: 0.91))
              .cornerRadius(8)
@@ -83,8 +85,7 @@ struct SecondButtonStyle: ButtonStyle {
         configuration.label
             .padding()
             .foregroundColor(.white)
-            
-
+            .fontWeight(.bold)
              .frame(width: 145, height: 141)
              .background(Color(red: 0.09, green: 0.40, blue: 0.77))
              .cornerRadius(8)
@@ -100,6 +101,7 @@ struct ThirdButtonStyle: ButtonStyle {
         configuration.label
             .padding()
             .foregroundColor(.white)
+            .fontWeight(.bold)
             .frame(width: 145, height: 141)
               .background(Color(red: 0.01, green: 0.30, blue: 0.63))
               .cornerRadius(8)
@@ -114,6 +116,7 @@ struct FourthButtonStyle: ButtonStyle {
         configuration.label
             .padding()
             .foregroundColor(.white)
+            .fontWeight(.bold)
             .frame(width: 145, height: 141)
             .background(Color(red: 0, green: 0.19, blue: 0.42))
             .cornerRadius(8)
